@@ -1,0 +1,9 @@
+env LD_PRELOAD=lib/libmalloc-ff.so tests/ffnf; env LD_PRELOAD=lib/libmalloc-nf.so tests/ffnf;env LD_PRELOAD=lib/libmalloc-bf.so tests/bfwf; env LD_PRELOAD=lib/libmalloc-wf.so tests/bfwf
+
+env LD_PRELOAD=lib/libmalloc-ff.so tests/test1; env LD_PRELOAD=lib/libmalloc-nf.so tests/test1; env LD_PRELOAD=lib/libmalloc-bf.so tests/test1; env LD_PRELOAD=lib/libmalloc-wf.so tests/test1
+
+env LD_PRELOAD=lib/libmalloc-ff.so tests/test2; env LD_PRELOAD=lib/libmalloc-nf.so tests/test2;  env LD_PRELOAD=lib/libmalloc-bf.so tests/test2; env LD_PRELOAD=lib/libmalloc-wf.so tests/test2
+
+env LD_PRELOAD=lib/libmalloc-ff.so tests/test3; env LD_PRELOAD=lib/libmalloc-nf.so tests/test3; env LD_PRELOAD=lib/libmalloc-bf.so tests/test3; env LD_PRELOAD=lib/libmalloc-wf.so tests/test3
+
+env LD_PRELOAD=lib/libmalloc-ff.so tests/test4; env LD_PRELOAD=lib/libmalloc-nf.so tests/test4; env LD_PRELOAD=lib/libmalloc-bf.so tests/test4; env LD_PRELOAD=lib/libmalloc-wf.so tests/test4
